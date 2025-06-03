@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "score": 87
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "score": 92
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "score": 76
+    },
+    {
+      "id": 4,
+      "name": "Diana King",
+      "email": "diana.king@example.com",
+      "score": 95
+    },
+    {
+      "id": 5,
+      "name": "Ethan Davis",
+      "email": "ethan.davis@example.com",
+      "score": 81
+    },
+    {
+      "id": 6,
+      "name": "Fiona Harris",
+      "email": "fiona.harris@example.com",
+      "score": 89
+    },
+    {
+      "id": 7,
+      "name": "George Lewis",
+      "email": "george.lewis@example.com",
+      "score": 78
+    },
+    {
+      "id": 8,
+      "name": "Hannah Walker",
+      "email": "hannah.walker@example.com",
+      "score": 90
+    },
+    {
+      "id": 9,
+      "name": "Isaac Young",
+      "email": "isaac.young@example.com",
+      "score": 84
+    },
+    {
+      "id": 10,
+      "name": "Julia Martin",
+      "email": "julia.martin@example.com",
+      "score": 93
+    },
+    {
+      "id": 11,
+      "name": "Kevin Thompson",
+      "email": "kevin.thompson@example.com",
+      "score": 75
+    },
+    {
+      "id": 12,
+      "name": "Laura Scott",
+      "email": "laura.scott@example.com",
+      "score": 88
+    }
+  ]
+  
