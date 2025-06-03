@@ -1,9 +1,5 @@
 ## 📅 **Plan de formation sur 4 jours (Python & Data Analytics)**
 
-### 🧠 Public cible :
-
-Professionnels ou étudiants avec des bases en Python souhaitant monter en compétence sur l’analyse et la visualisation de données.
-
 ---
 
 ### 🔧 **Jour 1 : Préparer les données**
@@ -82,14 +78,5 @@ Professionnels ou étudiants avec des bases en Python souhaitant monter en comp�
   * Nettoyage + KPIs + dashboard
 * Présentation rapide de chaque projet (5–10 min)
 * Évaluation : qualité du code, clarté des KPIs, lisibilité du dashboard
-
----
-
-## 🧾 **Livrables et outils fournis**
-
-* Templates de notebooks (Jupyter / VS Code)
-* Jeux de données d’entraînement (CSV, API publique)
-* Guide de déploiement Streamlit
-* Support de cours PDF / Markdown
 
 ---
