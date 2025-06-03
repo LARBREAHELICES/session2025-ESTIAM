@@ -4,15 +4,27 @@
 
 ### 🔹 Portée locale vs globale
 
+LEGB
+
+- Local
+- Englobant
+- Global
+- Builtin
+
 ```python
-x = 10  # variable globale
+# LEGB
+b = 10
+def g():
+    a = 1
+    # print = 9 # builtin
+    print(a) # L
+    def f():
+        print(a) # E
+        print(b) # localment b ? englobant b ? global b ? 
 
-def ma_fonction():
-    x = 5  # variable locale
-    print("Dans la fonction:", x)
+    f()
 
-ma_fonction()
-print("En dehors de la fonction:", x)
+g()
 ```
 
 ### 🔹 `global` et `nonlocal`
