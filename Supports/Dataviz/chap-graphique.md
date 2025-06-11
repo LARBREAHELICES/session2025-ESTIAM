@@ -67,6 +67,7 @@ explode = (0, 0.15, 0.15)  # Explose les tranches pour mettre en évidence
 plt.figure(figsize=(8, 8))
 plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
 
+
 # Assurer un aspect circulaire
 plt.axis('equal')
 

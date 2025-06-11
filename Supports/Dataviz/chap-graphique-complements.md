@@ -105,6 +105,8 @@ plt.grid(True)
 plt.show()
 ```
 
+
+
 **Explication du code :**
 - **`groupby('date')['quantity_sold'].sum()`** : Agrège les ventes totales par date.
 - **`plt.plot()`** : Crée un graphique linéaire des ventes au fil du temps.
