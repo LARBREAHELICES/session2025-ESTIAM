@@ -158,7 +158,60 @@ df.groupby("nom")["note"].mean()
 
 ---
 
-Souhaites-tu maintenant :
+### 🎭 Qu’est-ce qu’un masque ?
 
-* un **TP d’analyse de CSV avec Pandas**,
-* ou une série **d’exercices corrigés** pour t’entraîner ?
+```python
+df = pd.DataFrame({
+    "name": ["Alice", "Bob", "Charlie"],
+    "age": [25, np.nan, 35]
+})
+```
+
+Un **masque** est une **`Series` ou `array` de booléens** (`True`/`False`) utilisée pour **sélectionner des lignes ou des colonnes** dans un `DataFrame`.
+
+---
+
+### 🧱 Masques pour **lignes**
+
+✔️ Masque aligné sur **l’index** (lignes)
+👉 `df[mask]` ou `df.loc[mask]`
+
+```python
+mask = df["age"] > 30
+df[mask]         # sélectionne les lignes où l'âge > 30
+```
+
+---
+
+### 🧱 Masques pour **colonnes**
+
+✔️ Masque aligné sur **les colonnes**
+👉 `df.loc[:, mask]`
+
+```python
+mask = df.isna().any(axis=0)  # Series booléenne sur les colonnes
+df.loc[:, ~mask]              # garde les colonnes sans NaN
+
+df.T[~df.T.isna().any(axis=1)].T # moins lisible
+```
+
+---
+
+### ⚠️ Erreurs classiques
+
+```python
+df[mask_cols]  # ❌ fonctionne SEULEMENT si mask_cols est aligné sur l’index
+```
+
+---
+
+### ✅ Rappel synthétique
+
+| Objectif             | Masque aligné sur… | Syntaxe                      |
+| -------------------- | ------------------ | ---------------------------- |
+| Filtrer des lignes   | `df.index`         | `df[mask]` ou `df.loc[mask]` |
+| Filtrer des colonnes | `df.columns`       | `df.loc[:, mask]`            |
+
+---
+
+Si tu veux une fiche mémo ou un visuel, je peux aussi te le générer.
