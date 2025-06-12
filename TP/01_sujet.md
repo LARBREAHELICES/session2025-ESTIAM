@@ -12,6 +12,19 @@ Lorsque cela est pertinent, vous pouvez illustrer votre travail avec des graphiq
 
 💡 Pensez à mettre votre travail dans Teams avec votre/vos nom(s).
 
+Remarque pour télécharger les données à étudier 
+
+```python
+
+import seaborn as sns
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Chargement des données
+tips = sns.load_dataset("tips")
+```
+
 ---
 
 ## 💡 Recommandation
